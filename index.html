@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css " />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form >
+        <h1>Register</h1>
+        <div class="form-box">
+          <label for="username">User name:</label>
+          <input type="text" id="username" placeholder="enter your username" />
+          <p class="error-text">error</p>
+        </div>
+        <div class="form-box">
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="enter password" />
+          <p class="error-text">error</p>
+        </div>
+        <div class="form-box">
+          <label for="password2">Repeat password:</label>
+          <input type="password" id="password2" placeholder="repeat password" />
+          <p class="error-text">error</p>
+        </div>
+        <div class="form-box">
+          <label for="email">User name:</label>
+          <input type="email" id="email" placeholder="enter your email" />
+          <p class="error-text">error</p>
+        </div>
+        <div class="controls-button">
+          <button class="clear">Clear</button>
+          <button class="send">Send</button>
+        </div>
+        <div class="popup">
+          <p>The form has been sent correctly!</p>
+          <button class="close">close</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
