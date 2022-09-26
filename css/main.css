@@ -72,8 +72,12 @@ button:hover {
     background-color: rgb(160, 213, 224);
 }
 
-.error-text {
-    display: none;
+.form-box .error-text {
+    visibility: hidden;
+    margin: 6px;
+    font-size: 14px;
+    color: red;
+    text-transform: uppercase;
 }
 
 .popup {
@@ -99,4 +103,12 @@ button:hover {
 
 .show-popup{
     top: 50%;
+}
+.form-box.error input{
+    border: solid 1px red;
+    background-color: gainsboro;
+}
+
+.form-box.error .error-text{
+    visibility: visible;
 }
