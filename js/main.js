@@ -78,7 +78,7 @@ btnSend.addEventListener("click", (e) => {
   checkLenght(password, 8);
   checkPassword(password, password2);
   validateEmail(email);
-  checkErrors()
+  checkErrors();
 });
 
 btnClear.addEventListener("click", (e) => {
